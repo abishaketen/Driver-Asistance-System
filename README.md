@@ -6,7 +6,7 @@ This repository hosts three primary modules—Lane Detection, Fatigue Detection 
 
 **1. Lane Detection Module:**
 
-The lane detection module takes an input picture from the camera mounted on the windshield of the vehicle. The frame of the image is taken into the processing phase where it is converted into a grayscale image. The system converts the image into grayscale for ease of processing, as it is resource intensive to process an RGB image. 
+The lane detection module takes picture from the camera mounted on the windshield of the vehicle. The frame of the image is taken into the processing phase where it is converted into a grayscale image. The system converts the image into grayscale for ease of processing, as it is resource intensive to process an RGB image. 
 In the next step, a gaussian blur filter is imposed on the image. 
 The gaussian blur filter merges similar shade of a color. In the next step, canny-edge detection is performed.
 Canny-edge detection is a process wherein edges and lines in an image is identified. After this, Hough lines are introduced to the image by performing Hough transform on the canny image. 
